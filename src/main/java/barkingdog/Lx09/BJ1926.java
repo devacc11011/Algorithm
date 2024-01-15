@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class BJ1926yet {
+public class BJ1926 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String[] nm = reader.readLine().split(" ");
@@ -31,7 +31,7 @@ public class BJ1926yet {
         int[] dy = {0, 0, -1, 1};
 
         Queue<AbstractMap.SimpleEntry<Integer, Integer>> queue = new ArrayDeque<>();
-        queue.add(new AbstractMap.SimpleEntry<>(0, 0));
+//        queue.add(new AbstractMap.SimpleEntry<>(0, 0));
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
@@ -41,6 +41,7 @@ public class BJ1926yet {
                 paintNum++;
                 int curArea = 0;
                 visit[i][j] = 1;
+                queue.add(new AbstractMap.SimpleEntry<>(i, j));
                 while (!queue.isEmpty()) {
                     curArea++;
                     AbstractMap.SimpleEntry<Integer, Integer> cur = queue.poll();
