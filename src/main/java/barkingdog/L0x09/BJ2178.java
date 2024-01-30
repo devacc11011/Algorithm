@@ -1,11 +1,10 @@
-package barkingdog.Lx09;
+package barkingdog.L0x09;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.AbstractMap;
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Queue;
 
 public class BJ2178 {

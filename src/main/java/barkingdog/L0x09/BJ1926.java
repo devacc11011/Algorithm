@@ -1,4 +1,4 @@
-package barkingdog.Lx09;
+package barkingdog.L0x09;
 
 import java.io.BufferedReader;
 import java.io.IOException;
