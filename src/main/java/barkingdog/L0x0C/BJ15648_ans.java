@@ -2,7 +2,7 @@ package barkingdog.L0x0C;
 
 import java.io.*;
 
-public class BJ15648_ans__stll_rty {
+public class BJ15648_ans {
     private static int[] arr = new int[9];
     private static int[] used = new int[9];
     private static int n;

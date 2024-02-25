@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BJ9663 {
+public class BJ9663_tring {
     private static int[] usedY;
     private static int[] diagonal;
     private static int[] reversedDiagonal;
